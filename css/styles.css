@@ -1,3 +1,25 @@
+body {
+margin: 10px;
+}
+
 p {
     color: orangered;
+  }
+
+  #products {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
+  }
+
+  .products {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    float: left;
   }
