@@ -1,7 +1,16 @@
 p {
-    color: dodgerblue
+    color: dodgerblue;
+    border: 1px solid black;
 }
 
 strong {
     color:initial;
+    border:inherit;
+}
+
+.box {
+    width: 800px;
+    height: 200px;
+    background: radial-gradient(circle, red, yellow, green);
+    border: 1px solid black;
 }
