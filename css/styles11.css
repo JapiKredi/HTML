@@ -48,4 +48,11 @@ p::selection {
 p::before {
     content: "...";
     font-weight: bold;
+    display: block
+}
+
+p::after {
+    content: "...";
+    font-weight: bold;
+    display: block
 }
