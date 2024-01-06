@@ -48,3 +48,10 @@ p {
   a[href^="https:"][href$="com"] {
     color: blue;
   }
+
+    /* This is a way to select all #id's that contain products and then specifically the paragraph folloewing it  */
+    /* This is a descendent selector */
+
+  #products p {
+    color: green;
+  }
