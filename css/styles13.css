@@ -9,8 +9,15 @@ strong {
 }
 
 .box {
-    width: 800px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     background: radial-gradient(circle, red, yellow, green);
-    border: 1px solid black;
+    border: 10px dashed black;
+    box-shadow: 0 0 30px grey;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px grey;
 }
