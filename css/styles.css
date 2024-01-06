@@ -23,3 +23,28 @@ p {
     height: 200px;
     float: left;
   }
+
+    /* This is a way to select all anker objects or URL's that have the attribute target in it  */
+
+  a[target] {
+    color: red;
+  }
+
+
+  /* This is a way to select all anker objects or URL's that have the word google in it  */
+
+  a[href*"google"] {
+    color: orange;
+  }
+
+/* This is a way to select all anker objects or URL's starting with https */
+
+  a[href^="https"] {
+    color: green;
+  }
+
+  /* This is a way to select all anker objects or URL's starting with https and ending with .com */
+
+  a[href^="https:"][href$="com"] {
+    color: blue;
+  }
