@@ -1,2 +1,51 @@
 /* Pseudo-class selectors */
 
+article p:first-of-type {
+    color: blue;
+    font-size: 140%;
+    font-style: italic;
+}
+
+article :last-child {
+    color:red;
+    font-weight: bold;
+}
+
+ul li:nth-child(odd) {
+    color: pink;
+    font-size: 120%;
+}
+
+ul li:nth-child(even) {
+    color: gold;
+    font-size: 180%;
+}
+
+a:visited, a:link {
+    color: dodgerblue;
+}
+
+a:hover, a:focus {
+    color: deeppink;
+}
+
+.first-letter {
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p::first-line {
+    color: rgb(20, 255, 204);
+    font-weight: bold;
+    font-style: italic;
+}
+
+p::selection {
+    background-color: pink;
+}
+
+p::before {
+    content: "...";
+    font-weight: bold;
+}
